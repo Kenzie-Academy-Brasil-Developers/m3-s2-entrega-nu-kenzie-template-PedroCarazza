@@ -1,0 +1,38 @@
+.title {
+  font-family: var(--font-primary);
+
+  &.one {
+    font-weight: 800;
+    font-size: 38px;
+  }
+
+  &.two {
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  &.three {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  &.four {
+    font-weight: 600;
+    font-size: 12px;
+  }
+}
+
+.headline {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.body {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--grey-3);
+}
+
+

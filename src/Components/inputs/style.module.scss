@@ -1,0 +1,19 @@
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.inputBox{
+    padding: 10px;
+    border: 1px solid var(--grey-1);
+    border-radius: var(--radius-1);
+    background-color: var(--grey-1);
+    color: var(--grey-4);
+    outline: none;
+    
+    &::placeholder{
+        color: var(--grey-3);
+    }
+}

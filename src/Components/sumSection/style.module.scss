@@ -1,0 +1,20 @@
+.sumBox{
+    border: 2px solid var(--grey-2);
+    border-radius: var(--radius-2);
+    width: 300px;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divBox{
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+.totalBox{
+    padding: 20px 15px;
+    color: var(--color-primary);
+}

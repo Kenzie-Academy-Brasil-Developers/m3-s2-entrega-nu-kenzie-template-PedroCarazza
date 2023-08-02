@@ -1,0 +1,30 @@
+.recordBox {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  margin-top: 20px;
+  justify-content: space-between;
+  background-color: var(--grey-1);
+  padding: 20px 5px;
+  height: 55px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.value {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 10px;
+
+  span {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,33 @@
+.formSection{
+    border: 2px solid var(--grey-2);
+    border-radius: var(--radius-2);
+    width: 300px;
+    height: 385px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px 15px;
+}
+
+.selectSection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    select{
+    padding: 5px;
+    border: 1px solid var(--grey-1);
+    border-radius: var(--radius-1);
+    background-color: var(--grey-1);
+    color: var(--grey-4);
+    outline: none;
+    width: 100%;
+    }
+
+    button{
+        margin-top: 15px;
+    }
+}

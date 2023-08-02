@@ -1,0 +1,31 @@
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    cursor: pointer;
+
+    font-family: var(--font-primary);
+
+    &.insert{
+        background-color: var(--color-primary);
+        color: var(--grey-1);
+        border: var(--color-primary);
+        border-radius: var(--radius-1);
+        padding: 10px;
+    }
+
+    &.insert:hover{
+        background-color: var(--color-primary-2);
+        color: var(--grey-1);
+        transition: 0.3s;
+    }
+
+    &.delete{
+        background-color: var(--grey-2);
+        color: var(--grey-4);
+        border: var(--grey-2);
+        border-radius: var(--radius-2);
+    }
+
+}
