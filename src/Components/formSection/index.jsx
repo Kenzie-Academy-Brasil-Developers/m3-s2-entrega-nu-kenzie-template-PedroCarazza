@@ -42,6 +42,7 @@ export const FormSection = ({ addNote }) => {
           placeholder="Digite aqui o valor"
           value={value}
           setValue={setValueInput}
+          step="0.01"
         />
 
         <div className={styles.selectSection}>
